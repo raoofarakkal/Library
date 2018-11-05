@@ -1,0 +1,4 @@
+﻿a. jquery-1.4.4.js
+b. jquery.textarea.js
+   - jquery-1.4.4.js required by jquery.textarea.js
+   - jquery.textarea.js is used on Multi Control TextArea control to count Words, and  Character (support all the browsers)

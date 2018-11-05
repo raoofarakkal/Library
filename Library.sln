@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "_Library", "_Library1\_Library.vbproj", "{6A7B2C0F-7645-45E6-B4CF-322AF9B8756D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_LibraryCS", "_LibraryCS\_LibraryCS.csproj", "{BB382BC4-856C-4772-9572-3E107C998BC9}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ObjectBuilder", "ObjectBuilder\ObjectBuilder.vbproj", "{F1AA2204-EB90-4ED1-A3F1-942E677DCAD2}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://10.10.20.25:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = _Library1\\_Library.vbproj
+		SccProjectName1 = _Library1
+		SccLocalPath1 = _Library1
+		SccProjectUniqueName2 = _LibraryCS\\_LibraryCS.csproj
+		SccProjectName2 = _LibraryCS
+		SccLocalPath2 = _LibraryCS
+		SccProjectUniqueName3 = ObjectBuilder\\ObjectBuilder.vbproj
+		SccProjectName3 = ObjectBuilder
+		SccLocalPath3 = ObjectBuilder
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A7B2C0F-7645-45E6-B4CF-322AF9B8756D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7B2C0F-7645-45E6-B4CF-322AF9B8756D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7B2C0F-7645-45E6-B4CF-322AF9B8756D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7B2C0F-7645-45E6-B4CF-322AF9B8756D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB382BC4-856C-4772-9572-3E107C998BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB382BC4-856C-4772-9572-3E107C998BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB382BC4-856C-4772-9572-3E107C998BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB382BC4-856C-4772-9572-3E107C998BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1AA2204-EB90-4ED1-A3F1-942E677DCAD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1AA2204-EB90-4ED1-A3F1-942E677DCAD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1AA2204-EB90-4ED1-A3F1-942E677DCAD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1AA2204-EB90-4ED1-A3F1-942E677DCAD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

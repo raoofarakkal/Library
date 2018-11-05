@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script>
+function test(pID,pChecked) {
+	if (pChecked) {
+		var m = document.createElement('option');
+		m.value=pID;
+		m.text=pID;
+		mList.add(m);
+	}
+	else {
+		for (var x = 0; x < mList.length ; x++) {
+			if (pID ==mList.item(x).text) {
+				mList.remove(x);
+			}
+		}
+	}
+}
+</script>
+</head>
+
+<body>
+<input onclick="test(this.id,this.checked)" type="checkbox" id="1/2/3-1" value="jad1"/>
+<input onclick="test(this.id,this.checked)" type="checkbox" id="1/2/3-2" value="jad2"/>
+<input onclick="test(this.id,this.checked)" type="checkbox" id="1/2/3-3" value="jad3"/>
+<input onclick="test(this.id,this.checked)" type="checkbox" id="1/2/3-4" value="jad4"/>
+<br />
+<br />
+<select size="5" id="mList" name="mList">
+</select>
+</body>
+
+</html>
